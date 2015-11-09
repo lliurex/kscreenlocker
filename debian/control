@@ -1,6 +1,6 @@
 Source: kscreenlocker
 Priority: optional
-Maintainer: Rohan Garg <rohan@kde.org>
+Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -25,6 +25,7 @@ Build-Depends: cmake,
 Standards-Version: 3.9.6
 Section: libs
 Homepage: https://projects.kde.org/kscreenlocker
+XS-Testsuite: autopkgtest
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kscreenlocker.git
 Vcs-Browser: https://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/kscreenlocker.git;a=summary
 
@@ -32,18 +33,22 @@ Package: kscreenlocker-dev
 Section: libdevel
 Architecture: any
 Depends: kscreenlocker (= ${binary:Version}), ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Development files for kscreenlocker
+ Library and components for secure lock screen architecture.
+ .
+ This package contains development files for kscreenlocker.
 
 Package: kscreenlocker
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Secure lock screen architecture
+ Library and components for secure lock screen architecture.
 
 Package: kscreenlocker-dbg
 Architecture: any
 Section: debug
 Depends: kscreenlocker (= ${binary:Version}), ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Description: Debug files for kscreenlocker.
+ Library and components for secure lock screen architecture.
+ .
+ This package contains debug files for kscreenlocker.
