@@ -1,0 +1,46 @@
+Source: kscreenlocker
+Priority: optional
+Maintainer: Rohan Garg <rohan@kde.org>
+Build-Depends: cmake,
+               debhelper (>= 9),
+               extra-cmake-modules,
+               kwayland-dev,
+               libkf5crash-dev,
+               libkf5declarative-dev,
+               libkf5globalaccel-dev,
+               libkf5idletime-dev,
+               libkf5kcmutils-dev,
+               libkf5kdelibs4support-dev,
+               libpam0g-dev,
+               libqt5x11extras5-dev,
+               libwayland-dev,
+               libx11-dev,
+               libxcb-keysyms1-dev,
+               libxcb1-dev,
+               pkg-kde-tools,
+               qtbase5-dev
+Standards-Version: 3.9.6
+Section: libs
+Homepage: https://projects.kde.org/kscreenlocker
+Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kscreenlocker.git
+Vcs-Browser: https://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/kscreenlocker.git;a=summary
+
+Package: kscreenlocker-dev
+Section: libdevel
+Architecture: any
+Depends: kscreenlocker (= ${binary:Version}), ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: kscreenlocker
+Architecture: any
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
+
+Package: kscreenlocker-dbg
+Architecture: any
+Section: debug
+Depends: kscreenlocker (= ${binary:Version}), ${misc:Depends}
+Description: <insert up to 60 chars description>
+ <insert long description, indented with spaces>
