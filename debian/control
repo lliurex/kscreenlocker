@@ -17,6 +17,8 @@ Build-Depends: cmake,
                libx11-dev,
                libxcb-keysyms1-dev,
                libxcb1-dev,
+               libxcursor-dev,
+               pkg-config,
                pkg-kde-tools,
                plasma-framework-dev,
                qtbase5-dev
