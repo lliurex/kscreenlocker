@@ -4,5 +4,3 @@ Depends: @, @builddeps@, build-essential,
          kded5, libkf5service-bin
 Restrictions: rw-build-tree
 
-Tests: acc
-Depends: @, dh-acc, exuberant-ctags
