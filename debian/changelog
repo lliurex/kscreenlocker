@@ -1,6 +1,7 @@
 kscreenlocker (5.4.2-alpha-0ubuntu1) UNRELEASED; urgency=medium
 
   * Merge into Kubuntu again? 
+  * Add missing dependency for plasma-framework-dev 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Nov 2015 13:14:34 -0800
 

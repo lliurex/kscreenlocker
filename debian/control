@@ -18,6 +18,7 @@ Build-Depends: cmake,
                libxcb-keysyms1-dev,
                libxcb1-dev,
                pkg-kde-tools,
+               plasma-framework-dev,
                qtbase5-dev
 Standards-Version: 3.9.6
 Section: libs
