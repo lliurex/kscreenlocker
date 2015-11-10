@@ -46,7 +46,9 @@ Description: Secure lock screen architecture
 
 Package: kde-config-screenlocker
 Architecture: any
-Depends: libkscreenlocker5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Depends: libkscreenlocker5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Description: KCM Module for kscreenlocker
  KDE systemsettings module to configure kscreenlocker
 
