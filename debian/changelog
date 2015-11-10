@@ -1,6 +1,9 @@
-kscreenlocker (5.4.2-alpha-0ubuntu1) UNRELEASED; urgency=medium
+kscreenlocker (5.4.2-1) UNRELEASED; urgency=low
 
-  * Merge into Kubuntu again? 
+  [Rohan Garg]
+  * Initial release
+
+  [Scarlett Clark]
   * Add missing dependency for plasma-framework-dev 
   * Few more missing dependencies. 
   * Add some descriptions. 
@@ -8,11 +11,5 @@ kscreenlocker (5.4.2-alpha-0ubuntu1) UNRELEASED; urgency=medium
   * Add test files. 
   * Clean up tests. Disable tests at buildtime. 
   * Adjust install file. 
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Nov 2015 13:14:34 -0800
-
-kscreenlocker (0-1) unstable; urgency=low
-
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
 
  -- Rohan Garg <rohan@kde.org>  Mon, 09 Nov 2015 16:28:49 +0100
