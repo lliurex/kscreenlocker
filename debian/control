@@ -32,22 +32,28 @@ Vcs-Browser: https://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/kscreenlocker.g
 Package: kscreenlocker-dev
 Section: libdevel
 Architecture: any
-Depends: kscreenlocker (= ${binary:Version}), ${misc:Depends}
+Depends: libkscreenlocker5 (= ${binary:Version}), ${misc:Depends}
 Description: Development files for kscreenlocker
  Library and components for secure lock screen architecture.
  .
  This package contains development files for kscreenlocker.
 
-Package: kscreenlocker
+Package: libkscreenlocker5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: Secure lock screen architecture
  Library and components for secure lock screen architecture.
 
+Package: kde-config-screenlocker
+Architecture: any
+Depends: libkscreenlocker5 (= ${binary:Version}), ${misc:Depends}, ${shlibs:Depends}
+Description: KCM Module for kscreenlocker
+ KDE systemsettings module to configure kscreenlocker
+
 Package: kscreenlocker-dbg
 Architecture: any
 Section: debug
-Depends: kscreenlocker (= ${binary:Version}), ${misc:Depends}
+Depends: libkscreenlocker5 (= ${binary:Version}), ${misc:Depends}
 Description: Debug files for kscreenlocker.
  Library and components for secure lock screen architecture.
  .
