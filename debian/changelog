@@ -1,3 +1,9 @@
+kscreenlocker (5.4.2-1ubuntu1) UNRELEASED; urgency=medium
+
+  * Copy this initial Release for Kubuntu.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Nov 2015 11:25:30 -0800
+
 kscreenlocker (5.4.2-1) UNRELEASED; urgency=low
 
   [Rohan Garg]
@@ -13,9 +19,3 @@ kscreenlocker (5.4.2-1) UNRELEASED; urgency=low
   * Adjust install file. 
 
  -- Rohan Garg <rohan@kde.org>  Mon, 09 Nov 2015 16:28:49 +0100
-kscreenlocker (5.4.2-0ubuntu1) UNRELEASED; urgency=medium
-
-  * Copy this initial Release for Kubuntu.
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Nov 2015 11:25:30 -0800
-
