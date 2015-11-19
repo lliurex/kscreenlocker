@@ -1,4 +1,3 @@
-usr/lib/*/libexec/
 usr/lib/*/qt5/plugins/screenlocker_kcm.so
 usr/share/kconf_update/*
 usr/share/knotifications5/*
