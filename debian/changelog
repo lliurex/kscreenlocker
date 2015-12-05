@@ -1,6 +1,7 @@
 kscreenlocker (5.4.2-1ubuntu1) UNRELEASED; urgency=medium
 
   * Copy this initial Release for Kubuntu.
+  * Debian merge: No remaining changes. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Nov 2015 11:25:30 -0800
 
