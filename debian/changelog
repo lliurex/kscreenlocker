@@ -1,22 +1,18 @@
-kscreenlocker (5.4.2-1ubuntu1) UNRELEASED; urgency=medium
-
-  * Copy this initial Release for Kubuntu.
-  * Debian merge: No remaining changes. 
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Nov 2015 11:25:30 -0800
-
-kscreenlocker (5.4.2-1) UNRELEASED; urgency=low
+kscreenlocker (5.5.0-1~) UNRELEASED; urgency=medium
 
   [Rohan Garg]
   * Initial release
 
   [Scarlett Clark]
-  * Add missing dependency for plasma-framework-dev 
-  * Few more missing dependencies. 
-  * Add some descriptions. 
-  * Add XtestSuite. 
-  * Add test files. 
-  * Clean up tests. Disable tests at buildtime. 
-  * Adjust install file. 
+  * Add missing dependency for plasma-framework-dev
+  * Few more missing dependencies.
+  * Add some descriptions.
+  * Add XtestSuite.
+  * Add test files.
+  * Clean up tests. Disable tests at buildtime.
+  * Adjust install file.
 
- -- Rohan Garg <rohan@kde.org>  Mon, 09 Nov 2015 16:28:49 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.5.0)
+
+ -- Rohan Garg <rohan@kde.org>  Wed, 09 Dec 2015 14:46:34 +0100
