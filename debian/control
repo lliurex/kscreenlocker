@@ -1,6 +1,7 @@
 Source: kscreenlocker
 Priority: optional
-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Build-Depends: cmake,
                debhelper (>= 9),
                extra-cmake-modules,
@@ -57,6 +58,7 @@ Description: KCM Module for kscreenlocker
 Package: kscreenlocker-dbg
 Architecture: any
 Section: debug
+Priority: extra
 Depends: libkscreenlocker5 (= ${binary:Version}), ${misc:Depends}
 Description: Debug files for kscreenlocker.
  Library and components for secure lock screen architecture.
