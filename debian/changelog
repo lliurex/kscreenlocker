@@ -1,3 +1,9 @@
+kscreenlocker (5.5.1-1ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release Xenial.
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Sat, 19 Dec 2015 16:28:49 +0000
+
 kscreenlocker (5.4.2-1ubuntu1) UNRELEASED; urgency=medium
 
   * Copy this initial Release for Kubuntu.
