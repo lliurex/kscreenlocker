@@ -2,7 +2,7 @@
 
 include /usr/share/pkg-kde-tools/qt-kde-team/3/debian-qt-kde.mk
 
-dh_strip:
+override_dh_strip:
 	$(overridden_command) --dbg-package=kscreenlocker-dbg
 
 override_dh_auto_test:
