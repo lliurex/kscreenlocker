@@ -4,13 +4,17 @@ kscreenlocker (5.5.2-0ubuntu1) UNRELEASED; urgency=medium
   * Initial release
 
   [Scarlett Clark]
-  * Add missing dependency for plasma-framework-dev 
-  * Few more missing dependencies. 
-  * Add some descriptions. 
-  * Add XtestSuite. 
-  * Add test files. 
-  * Clean up tests. Disable tests at buildtime. 
-  * Adjust install file. 
-  * Add watch file. 
+  * Add missing dependency for plasma-framework-dev
+  * Few more missing dependencies.
+  * Add some descriptions.
+  * Add XtestSuite.
+  * Add test files.
+  * Clean up tests. Disable tests at buildtime.
+  * Adjust install file.
 
- -- Rohan Garg <rohan@kde.org>  Wed, 09 Dec 2015 14:46:34 +0100
+  [ Maximiliano Curia ]
+  * New upstream release (5.5.0)
+  * New upstream release (5.5.1).
+  * New upstream release (5.5.2).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 04 Jan 2016 21:44:23 +0100
