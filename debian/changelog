@@ -1,23 +1,5 @@
 kscreenlocker (5.5.2-0ubuntu1) UNRELEASED; urgency=medium
 
-  [ Scarlett Clark ]
-  * New upstream release Xenial.
-  * Add watch file. 
-
-  [ Clive Johnston ]
-  * new upstream release
-
- -- Clive Johnston <clivejo@aol.com>  Tue, 29 Dec 2015 17:43:02 +0000
-
-kscreenlocker (5.4.2-1ubuntu1) UNRELEASED; urgency=medium
-
-  * Copy this initial Release for Kubuntu.
-  * Debian merge: No remaining changes. 
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 09 Nov 2015 11:25:30 -0800
-
-kscreenlocker (5.4.2-1) UNRELEASED; urgency=low
-
   [Rohan Garg]
   * Initial release
 
@@ -29,5 +11,6 @@ kscreenlocker (5.4.2-1) UNRELEASED; urgency=low
   * Add test files. 
   * Clean up tests. Disable tests at buildtime. 
   * Adjust install file. 
+  * Add watch file. 
 
  -- Rohan Garg <rohan@kde.org>  Mon, 09 Nov 2015 16:28:49 +0100
