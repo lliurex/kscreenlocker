@@ -44,6 +44,7 @@ Description: Development files for kscreenlocker
 Package: libkscreenlocker5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Recommends: kde-config-screenlocker
 Multi-Arch: same
 Description: Secure lock screen architecture
  Library and components for secure lock screen architecture.
