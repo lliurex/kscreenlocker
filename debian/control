@@ -1,4 +1,5 @@
 Source: kscreenlocker
+Section: libs
 Priority: optional
 Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
 XSBC-Original-Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
@@ -24,16 +25,14 @@ Build-Depends: cmake,
                plasma-framework-dev (>= 5.17.0~),
                qtbase5-dev
 Standards-Version: 3.9.6
-Section: libs
 Homepage: https://projects.kde.org/kscreenlocker
-XS-Testsuite: autopkgtest
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kscreenlocker.git
 Vcs-Browser: https://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/kscreenlocker.git;a=summary
 
 Package: kscreenlocker-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
+Multi-Arch: same
 Depends: libkscreenlocker5 (= ${binary:Version}), ${misc:Depends}
 Description: Development files for kscreenlocker
  Library and components for secure lock screen architecture.

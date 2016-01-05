@@ -13,4 +13,4 @@ kscreenlocker (5.5.2-0ubuntu1) UNRELEASED; urgency=medium
   * Adjust install file. 
   * Add watch file. 
 
- -- Rohan Garg <rohan@kde.org>  Mon, 09 Nov 2015 16:28:49 +0100
+ -- Rohan Garg <rohan@kde.org>  Wed, 09 Dec 2015 14:46:34 +0100
