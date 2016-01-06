@@ -45,6 +45,8 @@ Package: libkscreenlocker5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: kde-config-screenlocker
+Breaks: plasma-workspace (<< 4:5.5~)
+Replaces: plasma-workspace (<< 4:5.5~)
 Multi-Arch: same
 Description: Secure lock screen architecture
  Library and components for secure lock screen architecture.
@@ -54,6 +56,8 @@ Architecture: any
 Depends: libkscreenlocker5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Breaks: plasma-workspace (<< 4:5.5~)
+Replaces: plasma-workspace (<< 4:5.5~)
 Description: KCM Module for kscreenlocker
  KDE systemsettings module to configure kscreenlocker
 

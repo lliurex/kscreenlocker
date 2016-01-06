@@ -17,4 +17,8 @@ kscreenlocker (5.5.2-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release (5.5.1).
   * New upstream release (5.5.2).
 
+  [ Philip Muškovac ]
+  * libkscreenlocker5 breaks/replaces plasma-workspace << 4:5.5~ 
+  * kde-config-screenlocker breaks/replaces plasma-workspace << 4:5.5~ 
+
  -- Maximiliano Curia <maxy@debian.org>  Mon, 04 Jan 2016 21:44:23 +0100
