@@ -62,12 +62,3 @@ Breaks: plasma-workspace (<= 5.5.0~), ${kde-l10n:all}
 Replaces: plasma-workspace (<= 5.5.0~), ${kde-l10n:all}
 Description: KCM Module for kscreenlocker
  KDE systemsettings module to configure kscreenlocker
-
-Package: kscreenlocker-dbg
-Architecture: any
-Section: debug
-Depends: libkscreenlocker5 (= ${binary:Version}), ${misc:Depends}
-Description: Debug files for kscreenlocker.
- Library and components for secure lock screen architecture.
- .
- This package contains debug files for kscreenlocker.
