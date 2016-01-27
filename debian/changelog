@@ -1,4 +1,4 @@
-kscreenlocker (5.5.3-1~) UNRELEASED; urgency=medium
+kscreenlocker (5.5.4-1~) UNRELEASED; urgency=medium
 
   [Rohan Garg]
   * Initial release
@@ -17,5 +17,6 @@ kscreenlocker (5.5.3-1~) UNRELEASED; urgency=medium
   * New upstream release (5.5.1).
   * New upstream release (5.5.2).
   * New upstream release (5.5.3).
+  * New upstream release (5.5.4).
 
- -- Maximiliano Curia <maxy@debian.org>  Sun, 24 Jan 2016 18:52:06 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 12:10:32 +0100
