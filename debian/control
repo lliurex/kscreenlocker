@@ -36,8 +36,8 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libkscreenlocker5 (= ${binary:Version}), ${misc:Depends}
-Breaks: plasma-workspace-dev (<= 5.5.0~)
-Replaces: plasma-workspace-dev (<= 5.5.0~)
+Breaks: plasma-workspace-dev (<= 4:5.5.0~)
+Replaces: plasma-workspace-dev (<= 4:5.5.0~)
 Description: Development files for kscreenlocker
  Library and components for secure lock screen architecture.
  .
@@ -58,7 +58,7 @@ Architecture: any
 Depends: libkscreenlocker5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: plasma-workspace (<= 5.5.0~), ${kde-l10n:all}
-Replaces: plasma-workspace (<= 5.5.0~), ${kde-l10n:all}
+Breaks: plasma-workspace (<= 4:5.5.0~), ${kde-l10n:all}
+Replaces: plasma-workspace (<= 4:5.5.0~), ${kde-l10n:all}
 Description: KCM Module for kscreenlocker
  KDE systemsettings module to configure kscreenlocker
