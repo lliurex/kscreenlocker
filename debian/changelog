@@ -1,8 +1,9 @@
-kscreenlocker (5.5.4-2~) UNRELEASED; urgency=medium
+kscreenlocker (5.5.5-1~) UNRELEASED; urgency=medium
 
   * Missing epoch in plasma-workspace breaks/replaces. (Closes: #814152)
+  * New upstream release (5.5.5).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 09 Feb 2016 15:41:23 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Mar 2016 17:29:14 +0100
 
 kscreenlocker (5.5.4-1) experimental; urgency=medium
 
