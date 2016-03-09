@@ -6,4 +6,3 @@ usr/share/ksmserver/*
 usr/share/locale/*/*/kscreenlocker.mo
 usr/share/locale/*/*/kscreenlocker_greet.mo
 usr/share/locale/*/*/screenlocker_kcm.mo
-usr/share/plasma/kcms/screenlocker_kcm/*
