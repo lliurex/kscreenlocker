@@ -1,6 +1,6 @@
-kscreenlocker (5.6.2-1~1.gbp668bb3) UNRELEASED; urgency=medium
+kscreenlocker (5.6.2-1~2.gbpddf052) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @668bb35837c95f91db0f579c412e19977caad9a9 **
+  ** SNAPSHOT build @ddf052ead321a775c2fd4654e1f73b8fbd6983db **
 
   [ Maximiliano Curia ]
   * Missing epoch in plasma-workspace breaks/replaces. (Closes: #814152)
@@ -9,7 +9,11 @@ kscreenlocker (5.6.2-1~1.gbp668bb3) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 06 Apr 2016 23:40:14 +0200
+  [ Maximiliano Curia ]
+  * Add upstream metadata (DEP-12)
+  * Update install files.
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 10:53:16 +0200
 
 kscreenlocker (5.5.4-1) experimental; urgency=medium
 
