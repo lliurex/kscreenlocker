@@ -1,9 +1,15 @@
-kscreenlocker (5.5.5-1~) UNRELEASED; urgency=medium
+kscreenlocker (5.6.2-1~1.gbp668bb3) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @668bb35837c95f91db0f579c412e19977caad9a9 **
+
+  [ Maximiliano Curia ]
   * Missing epoch in plasma-workspace breaks/replaces. (Closes: #814152)
   * New upstream release (5.5.5).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Mar 2016 17:29:14 +0100
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 06 Apr 2016 23:40:14 +0200
 
 kscreenlocker (5.5.4-1) experimental; urgency=medium
 
