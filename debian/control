@@ -30,7 +30,7 @@ Build-Depends: cmake (>= 2.8.12~),
                plasma-framework-dev (>= 5.15.0~),
                qtbase5-dev (>= 5.4.0~),
                qtdeclarative5-dev (>= 5.4.0~)
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/kscreenlocker
 Vcs-Git: git://anonscm.debian.org/pkg-kde/plasma/kscreenlocker.git
 Vcs-Browser: https://anonscm.debian.org/gitweb/?p=pkg-kde/plasma/kscreenlocker.git;a=summary
