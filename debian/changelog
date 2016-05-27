@@ -1,6 +1,4 @@
-kscreenlocker (5.6.4-1~1.gbpcc8c90) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @cc8c9084d653db0e4487e9e2d9287b2bfcdd29e8 **
+kscreenlocker (5.6.4-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
   * Missing epoch in plasma-workspace breaks/replaces. (Closes: #814152)
@@ -8,18 +6,14 @@ kscreenlocker (5.6.4-1~1.gbpcc8c90) UNRELEASED; urgency=medium
   * Add a .gitattributes file to use dpkg-mergechangelogs
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * Fix break/replaces against the l10n packages
-  * UNRELEASED
-  * UNRELEASED
+  * Add upstream metadata (DEP-12)
+  * Update install files.
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Bump Standards-Version to 3.9.8
 
-  [ Maximiliano Curia ]
-  * Add upstream metadata (DEP-12)
-  * Update install files.
-
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Wed, 11 May 2016 00:40:12 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 01:54:48 +0200
 
 kscreenlocker (5.5.4-1) experimental; urgency=medium
 
