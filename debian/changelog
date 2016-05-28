@@ -1,3 +1,12 @@
+kscreenlocker (5.6.4-2) unstable; urgency=medium
+
+  * Add even more missing epochs.
+    Thanks to Andreas Beckmann for reporting (Closes: 814152)
+  * Drop a=summary from vcs browser field.
+    Thanks to Andreas Beckmann for reporting
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 21:59:02 +0200
+
 kscreenlocker (5.6.4-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
