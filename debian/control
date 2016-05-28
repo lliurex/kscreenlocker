@@ -33,7 +33,7 @@ Build-Depends: cmake (>= 2.8.12~),
 Standards-Version: 3.9.8
 Homepage: https://projects.kde.org/kscreenlocker
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/kscreenlocker.git
-Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/kscreenlocker.git;a=summary
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/kscreenlocker.git
 
 Package: kscreenlocker-dev
 Section: libdevel
