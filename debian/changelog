@@ -1,3 +1,11 @@
+kscreenlocker (5.6.5-1~1.gbpceefac) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @ceefac14701f62323d67adeddd53bf59ea01e809 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 14 Jun 2016 18:40:09 +0200
+
 kscreenlocker (5.6.4-2) unstable; urgency=medium
 
   * Add even more missing epochs.
