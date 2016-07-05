@@ -1,3 +1,11 @@
+kscreenlocker (5.7.0-1~1.gbpf15e90) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @f15e901a3d697a894189a5c9a2ded88a5d26c571 **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 05 Jul 2016 18:40:12 +0200
+
 kscreenlocker (5.6.5-1) unstable; urgency=medium
 
   * New upstream release.
