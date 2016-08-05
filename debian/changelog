@@ -1,11 +1,12 @@
-kscreenlocker (5.7.2-1~1.gbpee6a44) UNRELEASED; urgency=medium
+kscreenlocker (5.7.3-1~1.gbpb55c4f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @ee6a443c54f8a0674f7ebd66dfb77b1d529beb26 **
+  ** SNAPSHOT build @b55c4fde5929aaccff48bca45005777dfce9f633 **
 
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 19 Jul 2016 18:40:15 +0200
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Fri, 05 Aug 2016 12:40:15 +0200
 
 kscreenlocker (5.7.0-1) unstable; urgency=medium
 
