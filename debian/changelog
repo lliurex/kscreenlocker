@@ -1,14 +1,9 @@
-kscreenlocker (5.7.4-1~2.gbpf45def) UNRELEASED; urgency=medium
+kscreenlocker (5.7.4-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @f45def4b0d8e7f231d78ae8858d933492f73e7b9 **
-
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
-  * UNRELEASED
+  * New upstream release (5.7.4)
   * Bump group breaks (5.7)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 26 Aug 2016 10:40:19 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Aug 2016 14:48:58 +0200
 
 kscreenlocker (5.7.0-1) unstable; urgency=medium
 
