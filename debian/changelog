@@ -1,11 +1,59 @@
-kscreenlocker (5.8.0-1~1.gbp92768a) UNRELEASED; urgency=medium
+kscreenlocker (5.8.0-1~2.gbp0e27b2) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @0e27b28dd62679f4eeab39077beaa0616edfe489 **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @92768a6d0042d6a8b23a200e7a32b2d102b89ea1 **
 
   * UNRELEASED
   * UNRELEASED
+  * Update build-deps and deps with the info from cmake
+  * Replace dbus-launch with dbus-run-session in tests
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:38:52 +0200
+  [ Jonathan Riddell ]
+  * add copyright, fix dbg
+  * update.install file
+  * update watch file to version=4 with pgp signature checking
+  * only stable tars used in neon
+  * new appstream path
+  * update signing key to add david edmundson
+  * NOCI
+
+  [ Scarlett Clark ]
+  * New upstream release Xenial.
+  * Add watch file.
+
+  [ Clive Johnston ]
+  * new upstream release
+  * New upstream release
+  * New upstream release
+
+  [ Philip Muškovac ]
+  * Squash all UNRELEASED changelogs into one
+  * Actually add the watch file
+  * Add breaks/replaces against plasma-workspace
+  * Enable tests
+  * Remove the testsuite field again
+
+  [ Harald Sitter ]
+  * wrap and sort...
+  * add missing bdep on xinput
+  * new upstream build dep on xtest
+
+  [ Neon CI ]
+  * New release
+  * New release
+  * New release
+  * New release
+  * New release
+  * New release
+  * New release
+  * New release
+  * New release
+  * New release
+  * New release
+
+ -- Jonathan Riddell <jr@jriddell.org>  Wed, 05 Oct 2016 18:40:29 +0200
 
 kscreenlocker (5.8.0-0neon) xenial; urgency=medium
 
