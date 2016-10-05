@@ -5,17 +5,17 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
-               extra-cmake-modules (>= 1.8.0~),
-               kwayland-dev,
-               libkf5crash-dev (>= 5.15.0~),
-               libkf5declarative-dev (>= 5.15.0~),
-               libkf5globalaccel-dev (>= 5.15.0~),
-               libkf5i18n-dev (>= 5.15.0~),
-               libkf5idletime-dev (>= 5.15.0~),
-               libkf5kcmutils-dev (>= 5.15.0~),
-               libkf5kdelibs4support-dev (>= 5.15.0~),
-               libkf5kwayland-dev,
+               extra-cmake-modules (>= 5.18.0~),
+               libkf5crash-dev (>= 5.18.0~),
+               libkf5declarative-dev (>= 5.18.0~),
+               libkf5globalaccel-dev (>= 5.18.0~),
+               libkf5i18n-dev (>= 5.18.0~),
+               libkf5idletime-dev (>= 5.18.0~),
+               libkf5kcmutils-dev (>= 5.18.0~),
+               libkf5kdelibs4support-dev (>= 5.18.0~),
+               libkf5kwayland-dev (>= 4:5.5.1~),
                libkf5notifications-dev (>= 5.15.0~),
+               libkf5plasma-dev (>= 5.18.0~),
                libkf5solid-dev (>= 5.15.0~),
                libkf5textwidgets-dev (>= 5.15.0~),
                libkf5windowsystem-dev (>= 5.15.0~),
@@ -28,9 +28,9 @@ Build-Depends: cmake (>= 2.8.12~),
                libxcb-xtest0-dev,
                libxcb1-dev,
                libxcursor-dev,
+               libxi-dev,
                pkg-config,
                pkg-kde-tools,
-               plasma-framework-dev (>= 5.15.0~),
                qtbase5-dev (>= 5.4.0~),
                qtdeclarative5-dev (>= 5.4.0~)
 Standards-Version: 3.9.8
@@ -67,5 +67,7 @@ Depends: libkscreenlocker5 (= ${binary:Version}),
          ${shlibs:Depends}
 Breaks: plasma-workspace (<= 4:5.5.0~), ${kde-l10n:all}
 Replaces: plasma-workspace (<= 4:5.5.0~), ${kde-l10n:all}
+Description: KCM Module for kscreenlocker
+ KDE systemsettings module to configure kscreenlocker
 Description: KCM Module for kscreenlocker
  KDE systemsettings module to configure kscreenlocker

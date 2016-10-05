@@ -7,12 +7,42 @@ kscreenlocker (5.8.0-1~1.gbp92768a) UNRELEASED; urgency=medium
 
  -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Tue, 04 Oct 2016 13:38:52 +0200
 
+kscreenlocker (5.8.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 30 Sep 2016 11:29:12 +0000
+
+kscreenlocker (5.7.5-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 13 Sep 2016 13:45:25 +0000
+
 kscreenlocker (5.7.4-1) unstable; urgency=medium
 
   * New upstream release (5.7.4)
   * Bump group breaks (5.7)
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Aug 2016 14:48:58 +0200
+
+kscreenlocker (5.7.4-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 23 Aug 2016 17:28:01 +0000
+
+kscreenlocker (5.7.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 19 Jul 2016 13:46:34 +0000
+
+kscreenlocker (5.7.1-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 12 Jul 2016 16:06:04 +0000
 
 kscreenlocker (5.7.0-1) unstable; urgency=medium
 
@@ -21,11 +51,23 @@ kscreenlocker (5.7.0-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 09 Jul 2016 22:21:55 +0200
 
+kscreenlocker (5.7.0-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Mon, 04 Jul 2016 13:15:31 +0000
+
 kscreenlocker (5.6.5-1) unstable; urgency=medium
 
   * New upstream release.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 24 Jun 2016 09:29:48 +0200
+
+kscreenlocker (5.6.5-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 14 Jun 2016 14:15:05 +0000
 
 kscreenlocker (5.6.4-2) unstable; urgency=medium
 
@@ -53,6 +95,24 @@ kscreenlocker (5.6.4-1) unstable; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 01:54:48 +0200
 
+kscreenlocker (5.6.4-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 11 May 2016 09:41:33 +0000
+
+kscreenlocker (5.6.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 19 Apr 2016 16:56:32 +0000
+
+kscreenlocker (5.6.2-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Fri, 08 Apr 2016 11:43:30 +0000
+
 kscreenlocker (5.5.4-1) experimental; urgency=medium
 
   [Rohan Garg]
@@ -75,3 +135,31 @@ kscreenlocker (5.5.4-1) experimental; urgency=medium
   * New upstream release (5.5.4).
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 16:49:06 +0100
+kscreenlocker (5.5.4-0ubuntu1) UNRELEASED; urgency=medium
+
+  [Rohan Garg]
+  * Initial release
+
+  [Scarlett Clark]
+  * Add missing dependency for plasma-framework-dev
+  * Few more missing dependencies.
+  * Add some descriptions.
+  * Add XtestSuite.
+  * Add test files.
+  * Clean up tests. Disable tests at buildtime.
+  * Adjust install file.
+
+  [ Maximiliano Curia ]
+  * New upstream release (5.5.0)
+  * New upstream release (5.5.1).
+  * New upstream release (5.5.2).
+
+  [ Philip Muškovac ]
+  * libkscreenlocker5 breaks/replaces plasma-workspace << 4:5.5~ 
+  * kde-config-screenlocker breaks/replaces plasma-workspace << 4:5.5~ 
+
+  [ Clive Johnston ]
+  * New upstream release
+  * New upstream release
+
+ -- Clive Johnston <clivejo@aol.com>  Wed, 27 Jan 2016 20:11:13 +0000
