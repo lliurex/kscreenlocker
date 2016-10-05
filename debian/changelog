@@ -1,6 +1,6 @@
-kscreenlocker (5.8.0-1~2.gbp0e27b2) UNRELEASED; urgency=medium
+kscreenlocker (5.8.0-1~3.gbp100fca) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @0e27b28dd62679f4eeab39077beaa0616edfe489 **
+  ** SNAPSHOT build @100fcaf41b0fc6c10380ea8e7fc8b9308f921e3a **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @92768a6d0042d6a8b23a200e7a32b2d102b89ea1 **
@@ -18,6 +18,7 @@ kscreenlocker (5.8.0-1~2.gbp0e27b2) UNRELEASED; urgency=medium
   * new appstream path
   * update signing key to add david edmundson
   * NOCI
+  * UNRELEASED
 
   [ Scarlett Clark ]
   * New upstream release Xenial.
@@ -53,7 +54,7 @@ kscreenlocker (5.8.0-1~2.gbp0e27b2) UNRELEASED; urgency=medium
   * New release
   * New release
 
- -- Jonathan Riddell <jr@jriddell.org>  Wed, 05 Oct 2016 18:40:29 +0200
+ -- Jonathan Riddell <jenkins@gnuservers.com.ar>  Wed, 05 Oct 2016 19:29:18 +0200
 
 kscreenlocker (5.8.0-0neon) xenial; urgency=medium
 
