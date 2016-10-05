@@ -69,5 +69,3 @@ Breaks: plasma-workspace (<= 4:5.5.0~), ${kde-l10n:all}
 Replaces: plasma-workspace (<= 4:5.5.0~), ${kde-l10n:all}
 Description: KCM Module for kscreenlocker
  KDE systemsettings module to configure kscreenlocker
-Description: KCM Module for kscreenlocker
- KDE systemsettings module to configure kscreenlocker
