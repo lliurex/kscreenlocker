@@ -13,11 +13,11 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5idletime-dev (>= 5.18.0~),
                libkf5kcmutils-dev (>= 5.18.0~),
                libkf5kdelibs4support-dev (>= 5.18.0~),
-               libkf5wayland-dev (>= 4:5.5.1~),
                libkf5notifications-dev (>= 5.15.0~),
                libkf5plasma-dev (>= 5.18.0~),
                libkf5solid-dev (>= 5.15.0~),
                libkf5textwidgets-dev (>= 5.15.0~),
+               libkf5wayland-dev (>= 4:5.5.1~),
                libkf5windowsystem-dev (>= 5.15.0~),
                libkf5xmlgui-dev (>= 5.15.0~),
                libpam0g-dev,
@@ -54,7 +54,7 @@ Package: libkscreenlocker5
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Recommends: kde-config-screenlocker
-Breaks: kwin-common (<< 4:5.7), plasma-workspace (<< 4:5.7)
+Breaks: kwin-common (<< 4:5.8), plasma-workspace (<< 4:5.8)
 Replaces: plasma-workspace (<= 4:5.5.0~)
 Multi-Arch: same
 Description: Secure lock screen architecture
