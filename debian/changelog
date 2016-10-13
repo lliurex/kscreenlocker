@@ -1,3 +1,11 @@
+kscreenlocker (5.8.1-1~1.gbpac9136) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @ac9136b1419247599a8c552299f0acc59e2aa3b4 **
+
+  * UNRELEASED
+
+ -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 18:40:26 +0200
+
 kscreenlocker (5.8.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
