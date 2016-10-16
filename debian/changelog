@@ -1,10 +1,8 @@
-kscreenlocker (5.8.1-1~1.gbpac9136) UNRELEASED; urgency=medium
+kscreenlocker (5.8.1-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @ac9136b1419247599a8c552299f0acc59e2aa3b4 **
+  * New upstream release (5.8.1)
 
-  * UNRELEASED
-
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Thu, 13 Oct 2016 18:40:26 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 16 Oct 2016 22:58:06 +0200
 
 kscreenlocker (5.8.0-1) unstable; urgency=medium
 
