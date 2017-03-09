@@ -1,0 +1,22 @@
+#!/bin/sh -e
+
+#DEBHELPER#
+
+case "$1" in
+    configure)
+
+	# restart kscreenlocker incase it starts during upgrade
+	# "a kscreenlocker_greet started in Plasma 5.9 won't be able to unlock with a kcheckpass from Plasma 5.10"
+	killall kscreenlocker_greet
+        ;;
+
+    abort-upgrade|abort-deconfigure|abort-remove)
+        ;;
+
+    *)
+        echo "$0 called with unknown argument \`$1'" 1>&2
+        exit 1
+        ;;
+esac
+
+exit 0
