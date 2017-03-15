@@ -1,8 +1,8 @@
-kscreenlocker (5.8.6-1~) UNRELEASED; urgency=medium
+kscreenlocker (5.8.6-1) experimental; urgency=medium
 
   * New upstream release (5.8.6)
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 14 Mar 2017 19:34:34 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 15 Mar 2017 09:02:11 +0100
 
 kscreenlocker (5.8.5-1) experimental; urgency=medium
 
