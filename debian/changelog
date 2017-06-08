@@ -1,4 +1,4 @@
-kscreenlocker (5.8.7-1~) UNRELEASED; urgency=medium
+kscreenlocker (5.8.7-1) unstable; urgency=medium
 
   * New upstream release (5.8.7)
      + Implement manual focus on click
@@ -11,7 +11,7 @@ kscreenlocker (5.8.7-1~) UNRELEASED; urgency=medium
        of already displayed ones as only the first window gains automatic focus.
        Fixes KDE#348789, KDE#374289
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 08 Jun 2017 16:50:23 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 08 Jun 2017 17:14:31 +0200
 
 kscreenlocker (5.8.6-2) unstable; urgency=medium
 
