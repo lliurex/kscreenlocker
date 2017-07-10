@@ -5,8 +5,10 @@
 case "$1" in
     configure)
 
-	# restart kscreenlocker incase it starts during upgrade
-	# "a kscreenlocker_greet started in Plasma 5.9 won't be able to unlock with a kcheckpass from Plasma 5.10"
+	# restart kscreenlocker in case it starts during upgrade
+	# "a kscreenlocker_greet started in Plasma 5.9 won't be able to unlock
+	# with a kcheckpass from Plasma 5.10"
+	# When killed kscreenlocker_greet is relaunched
 	killall kscreenlocker_greet || true
         ;;
 
