@@ -32,11 +32,21 @@ Build-Depends: cmake (>= 2.8.12~),
                pkg-config,
                pkg-kde-tools,
                qtbase5-dev (>= 5.4.0~),
-               qtdeclarative5-dev (>= 5.4.0~)
+               qtdeclarative5-dev (>= 5.4.0~),
 Standards-Version: 4.0.0
 Homepage: https://projects.kde.org/kscreenlocker
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/plasma/kscreenlocker.git
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/plasma/kscreenlocker.git
+
+Package: kde-config-screenlocker
+Architecture: any
+Depends: libkscreenlocker5 (= ${binary:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Breaks: plasma-workspace (<= 4:5.5.0~), ${kde-l10n:all}
+Replaces: plasma-workspace (<= 4:5.5.0~), ${kde-l10n:all}
+Description: KCM Module for kscreenlocker
+ KDE systemsettings module to configure kscreenlocker
 
 Package: kscreenlocker-dev
 Section: libdevel
@@ -59,13 +69,3 @@ Replaces: plasma-workspace (<= 4:5.5.0~)
 Multi-Arch: same
 Description: Secure lock screen architecture
  Library and components for secure lock screen architecture.
-
-Package: kde-config-screenlocker
-Architecture: any
-Depends: libkscreenlocker5 (= ${binary:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Breaks: plasma-workspace (<= 4:5.5.0~), ${kde-l10n:all}
-Replaces: plasma-workspace (<= 4:5.5.0~), ${kde-l10n:all}
-Description: KCM Module for kscreenlocker
- KDE systemsettings module to configure kscreenlocker
