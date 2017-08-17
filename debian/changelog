@@ -1,8 +1,18 @@
-kscreenlocker (5.10.3-1~) UNRELEASED; urgency=medium
+kscreenlocker (5.10.4-1~) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * New upstream release (5.10.3).
+  * Bump Standards-Version to 4.0.0.
+  * Update upstream metadata
+  * Bump group breaks (5.10)
+  * Sync debian/watch with neon
+  * New upstream release (5.10.4).
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 11:47:59 +0200
+  [ Jonathan Riddell ]
+  * restart kscreenlocker incase it starts during upgrade - a kscreenlocker_greet started in Plasma 5.9 won't be able to unlock with a kcheckpass from Plasma 5.10
+  * allow for failure of command
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 17 Aug 2017 13:26:47 +0200
 
 kscreenlocker (5.8.7-1) unstable; urgency=medium
 
