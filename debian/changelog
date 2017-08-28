@@ -206,31 +206,4 @@ kscreenlocker (5.5.4-1) experimental; urgency=medium
   * New upstream release (5.5.4).
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 16:49:06 +0100
-kscreenlocker (5.5.4-0ubuntu1) UNRELEASED; urgency=medium
 
-  [Rohan Garg]
-  * Initial release
-
-  [Scarlett Clark]
-  * Add missing dependency for plasma-framework-dev
-  * Few more missing dependencies.
-  * Add some descriptions.
-  * Add XtestSuite.
-  * Add test files.
-  * Clean up tests. Disable tests at buildtime.
-  * Adjust install file.
-
-  [ Maximiliano Curia ]
-  * New upstream release (5.5.0)
-  * New upstream release (5.5.1).
-  * New upstream release (5.5.2).
-
-  [ Philip Muškovac ]
-  * libkscreenlocker5 breaks/replaces plasma-workspace << 4:5.5~ 
-  * kde-config-screenlocker breaks/replaces plasma-workspace << 4:5.5~ 
-
-  [ Clive Johnston ]
-  * New upstream release
-  * New upstream release
-
- -- Clive Johnston <clivejo@aol.com>  Wed, 27 Jan 2016 20:11:13 +0000
