@@ -49,7 +49,7 @@ Description: Development files for kscreenlocker
 
 Package: libkscreenlocker5
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Depends: killall, ${misc:Depends}, ${shlibs:Depends}
 Recommends: kde-config-screenlocker
 Breaks: plasma-workspace (<< 4:5.5~)
 Replaces: plasma-workspace (<< 4:5.5~)
