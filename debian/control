@@ -70,9 +70,10 @@ Description: KCM Module for kscreenlocker
 Package: kscreenlocker-dbg
 Architecture: any
 Section: debug
-Priority: extra
+Priority: optional
 Depends: libkscreenlocker5 (= ${binary:Version}), ${misc:Depends}
 Description: Debug files for kscreenlocker.
  Library and components for secure lock screen architecture.
  .
  This package contains debug files for kscreenlocker.
+
