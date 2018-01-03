@@ -1,8 +1,9 @@
-kscreenlocker (5.11.4-1~) UNRELEASED; urgency=medium
+kscreenlocker (5.11.4-1) experimental; urgency=medium
 
   * New upstream release (5.11.4).
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Dec 2017 15:38:21 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 03 Jan 2018 16:48:57 -0300
 
 kscreenlocker (5.10.5.1-1) sid; urgency=medium
 
