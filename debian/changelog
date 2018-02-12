@@ -1,9 +1,10 @@
-kscreenlocker (5.12.0-2~1) UNRELEASED; urgency=medium
+kscreenlocker (5.12.0-2) sid; urgency=medium
 
   * New revision
   * Add libseccomp-dev optional build dep
+  * Release to sid
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Feb 2018 16:01:58 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Feb 2018 16:03:37 +0100
 
 kscreenlocker (5.12.0-1) experimental; urgency=medium
 
