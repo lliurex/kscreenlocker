@@ -2,5 +2,5 @@ Tests: testsuite
 Depends: @, @builddeps@, build-essential,
          xvfb, xauth, dbus (>= 1.8), openbox,
          kded5, libkf5service-bin
-Restrictions: rw-build-tree
+Restrictions: build-needed, allow-stderr
 
