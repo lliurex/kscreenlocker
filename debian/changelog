@@ -1,8 +1,12 @@
-kscreenlocker (5.13.1-1~) UNRELEASED; urgency=medium
+kscreenlocker (5.13.1-1) unstable; urgency=medium
 
   * New upstream release (5.13.1).
+  * Update build-deps and deps with the info from cmake
+  * testsuite: Update the test
+  * Bump group breaks (5.13)
+  * Release to unstable
 
- -- Maximiliano Curia <maxy@debian.org>  Wed, 20 Jun 2018 13:26:58 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 26 Jun 2018 13:43:02 +0200
 
 kscreenlocker (5.12.2-1) sid; urgency=medium
 
