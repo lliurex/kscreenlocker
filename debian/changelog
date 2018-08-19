@@ -1,8 +1,9 @@
-kscreenlocker (5.13.4-1~) UNRELEASED; urgency=medium
+kscreenlocker (5.13.4-1) unstable; urgency=medium
 
   * New upstream release (5.13.4).
+  * Release to unstable
 
- -- Maximiliano Curia <maxy@debian.org>  Sat, 18 Aug 2018 11:56:19 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Aug 2018 23:18:02 +0200
 
 kscreenlocker (5.13.1-1) unstable; urgency=medium
 
