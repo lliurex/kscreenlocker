@@ -1,3 +1,9 @@
+kscreenlocker (5.13.5-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Tue, 04 Sep 2018 12:17:40 +0000
+
 kscreenlocker (5.13.4-0neon) xenial; urgency=medium
 
   * New release
