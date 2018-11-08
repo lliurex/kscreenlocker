@@ -1,3 +1,10 @@
+kscreenlocker (5.14.3-1~) UNRELEASED; urgency=medium
+
+  * Update upsteam signing-key
+  * New upstream release (5.14.3).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 08 Nov 2018 13:41:48 +0100
+
 kscreenlocker (5.13.5-1) unstable; urgency=medium
 
   * New upstream release (5.13.5).
