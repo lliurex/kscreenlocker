@@ -4,265 +4,171 @@ kscreenlocker (5.14.4-0neon) bionic; urgency=medium
 
  -- Neon CI <neon@kde.org>  Tue, 27 Nov 2018 17:29:03 +0000
 
-kscreenlocker (5.14.3-0neon) bionic; urgency=medium
+kscreenlocker (5.14.3-1) unstable; urgency=medium
 
-  * New release
+  * Update upsteam signing-key
+  * New upstream release (5.14.3).
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.14)
+  * Release to unstable
 
- -- Neon CI <neon@kde.org>  Tue, 06 Nov 2018 16:31:04 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 23 Nov 2018 08:50:37 -0300
 
-kscreenlocker (5.14.2-0neon) bionic; urgency=medium
+kscreenlocker (5.13.5-1) unstable; urgency=medium
 
-  * New release
+  * New upstream release (5.13.5).
+  * Release to unstable
 
- -- Neon CI <neon@kde.org>  Sat, 27 Oct 2018 09:43:35 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 06 Sep 2018 20:40:34 +0200
 
-kscreenlocker (5.14.1-0neon) bionic; urgency=medium
+kscreenlocker (5.13.4-1) unstable; urgency=medium
 
-  * New release
+  * New upstream release (5.13.4).
+  * Release to unstable
 
- -- Neon CI <neon@kde.org>  Tue, 16 Oct 2018 13:43:53 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 19 Aug 2018 23:18:02 +0200
 
-kscreenlocker (5.14.0-0neon) xenial; urgency=medium
+kscreenlocker (5.13.1-1) unstable; urgency=medium
 
-  * New release
+  * New upstream release (5.13.1).
+  * Update build-deps and deps with the info from cmake
+  * testsuite: Update the test
+  * Bump group breaks (5.13)
+  * Release to unstable
 
- -- Neon CI <neon@kde.org>  Mon, 08 Oct 2018 14:00:01 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 26 Jun 2018 13:43:02 +0200
 
-kscreenlocker (5.13.5-0neon) xenial; urgency=medium
+kscreenlocker (5.12.2-1) sid; urgency=medium
 
-  * New release
+  * New upstream release (5.12.2).
+  * Release to sid
 
- -- Neon CI <neon@kde.org>  Tue, 04 Sep 2018 12:17:40 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 24 Feb 2018 09:47:53 +0100
 
-kscreenlocker (5.13.4-0neon) xenial; urgency=medium
+kscreenlocker (5.12.1-1) sid; urgency=medium
 
-  * New release
+  * Use the salsa canonical urls
+  * New upstream release (5.12.1).
+  * Release to sid
 
- -- Neon CI <neon@kde.org>  Tue, 31 Jul 2018 14:29:46 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 20 Feb 2018 22:08:49 +0100
 
-kscreenlocker (5.13.3-0neon) xenial; urgency=medium
+kscreenlocker (5.12.0-2) sid; urgency=medium
 
-  * New release
+  * New revision
+  * Add libseccomp-dev optional build dep
+  * Release to sid
 
- -- Neon CI <neon@kde.org>  Tue, 10 Jul 2018 12:22:09 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 12 Feb 2018 16:03:37 +0100
 
-kscreenlocker (5.13.2-0neon) xenial; urgency=medium
+kscreenlocker (5.12.0-1) experimental; urgency=medium
 
-  * New release
+  * Bump debhelper build-dep and compat to 11.
+  * Add link options as-needed
+  * Add Bhushan Shah upstream signing key
+  * New upstream release (5.12.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.1.3.
+  * Bump group breaks (5.12)
+  * Use https uri for uscan
+  * Release to experimental
 
- -- Neon CI <neon@kde.org>  Tue, 26 Jun 2018 13:56:14 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 08 Feb 2018 15:20:43 +0100
 
-kscreenlocker (5.13.1-0neon) xenial; urgency=medium
+kscreenlocker (5.11.4-1) experimental; urgency=medium
 
-  * New release
+  * New upstream release (5.11.4).
+  * Release to experimental
 
- -- Neon CI <neon@kde.org>  Tue, 19 Jun 2018 12:19:43 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 03 Jan 2018 16:48:57 -0300
 
-kscreenlocker (5.13.0-0neon) xenial; urgency=medium
+kscreenlocker (5.10.5.1-1) sid; urgency=medium
 
-  * New release
+  * New upstream release (5.10.5.1).
+  * Bump Standards-Version to 4.1.0.
+  * Release to sid
 
- -- Neon CI <neon@kde.org>  Wed, 13 Jun 2018 10:43:48 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 03 Sep 2017 09:55:25 +0200
 
-kscreenlocker (5.12.7-0xneon) xenial; urgency=medium
+kscreenlocker (5.10.5-1) experimental; urgency=medium
 
-  * New release
+  [ Maximiliano Curia ]
+  * New upstream release (5.10.3).
+  * Bump Standards-Version to 4.0.0.
+  * Update upstream metadata
+  * Bump group breaks (5.10)
+  * Sync debian/watch with neon
+  * New upstream release (5.10.4).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.10.5).
+  * Release to experimental
 
- -- Neon CI <neon@kde.org>  Tue, 01 May 2018 14:41:25 +0000
+  [ Jonathan Riddell ]
+  * restart kscreenlocker incase it starts during upgrade - a kscreenlocker_greet started in Plasma 5.9 won't be able to unlock with a kcheckpass from Plasma 5.10
+  * allow for failure of command
 
-kscreenlocker (5.12.5-0ubuntu0.1neon) xenial; urgency=medium
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 28 Aug 2017 15:28:22 +0200
 
-  * New release
+kscreenlocker (5.8.7-1) unstable; urgency=medium
 
- -- Neon CI <neon@kde.org>  Tue, 01 May 2018 14:41:25 +0000
+  * New upstream release (5.8.7)
+     + Implement manual focus on click
+       Currently only the first created screenlock window gets focus.
+       On clicks, no focus events are sent, which makes it impossible to input
+       passwords. This patch now makes it possible to focus to a different
+       screenlock window (on a different monitor, for example) using a mouse
+       button press.
+       This should also fix newly created screenlock windows stealing the focus
+       of already displayed ones as only the first window gains automatic focus.
+       Fixes KDE#348789, KDE#374289
 
-kscreenlocker (5.12.4-0neon) xenial; urgency=medium
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 08 Jun 2017 17:14:31 +0200
 
-  * New release
+kscreenlocker (5.8.6-2) unstable; urgency=medium
 
- -- Neon CI <neon@kde.org>  Tue, 27 Mar 2018 14:24:10 +0000
+  * Release to unstable
 
-kscreenlocker (5.12.3-0neon) xenial; urgency=medium
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 15 Mar 2017 09:10:42 +0100
 
-  * New release
+kscreenlocker (5.8.6-1) experimental; urgency=medium
 
- -- Neon CI <neon@kde.org>  Fri, 09 Mar 2018 17:16:12 +0000
+  * New upstream release (5.8.6)
 
-kscreenlocker (5.12.2-0neon) xenial; urgency=medium
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 15 Mar 2017 09:02:11 +0100
 
-  * New release
+kscreenlocker (5.8.5-1) experimental; urgency=medium
 
- -- Neon CI <neon@kde.org>  Tue, 20 Feb 2018 23:55:46 +0000
+  * New upstream release (5.8.5).
 
-kscreenlocker (5.12.1-0neon) xenial; urgency=medium
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 30 Dec 2016 18:46:16 +0100
 
-  * New release
+kscreenlocker (5.8.4-1) unstable; urgency=medium
 
- -- Neon CI <neon@kde.org>  Tue, 13 Feb 2018 18:18:54 +0000
+  * New upstream release (5.8.4)
 
-kscreenlocker (5.12.0-0neon) xenial; urgency=medium
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 23 Nov 2016 18:36:24 +0100
 
-  * New release
+kscreenlocker (5.8.2-1) unstable; urgency=medium
 
- -- Neon CI <neon@kde.org>  Fri, 02 Feb 2018 13:37:25 +0000
+  * New upstream release (5.8.2)
 
-kscreenlocker (5.11.5-0neon) xenial; urgency=medium
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 19 Oct 2016 15:21:16 +0200
 
-  * New release
+kscreenlocker (5.8.1-1) unstable; urgency=medium
 
- -- Neon CI <neon@kde.org>  Tue, 02 Jan 2018 21:42:15 +0000
+  * New upstream release (5.8.1)
 
-kscreenlocker (5.11.4-0neon) xenial; urgency=medium
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 16 Oct 2016 22:58:06 +0200
 
-  * New release
+kscreenlocker (5.8.0-1) unstable; urgency=medium
 
- -- Neon CI <neon@kde.org>  Tue, 28 Nov 2017 16:59:59 +0000
+  [ Maximiliano Curia ]
+  * New upstream release (5.8.0)
+  * Update build-deps and deps with the info from cmake
+  * Replace dbus-launch with dbus-run-session in tests
+  * Bump group breaks (5.8)
 
-kscreenlocker (5.11.3-0neon) bionic; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 07 Nov 2017 15:02:46 +0000
-
-kscreenlocker (5.11.2-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 24 Oct 2017 16:31:56 +0000
-
-kscreenlocker (5.11.1-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 17 Oct 2017 13:45:51 +0000
-
-kscreenlocker (5.11.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Thu, 05 Oct 2017 14:32:53 +0000
-
-kscreenlocker (5.10.5.1-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Thu, 31 Aug 2017 17:47:31 +0000
-
-kscreenlocker (5.10.5-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Wed, 23 Aug 2017 09:54:33 +0000
-
-kscreenlocker (5.10.4-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 18 Jul 2017 13:51:29 +0000
-
-kscreenlocker (5.10.3-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 27 Jun 2017 12:10:18 +0000
-
-kscreenlocker (5.10.2-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 13 Jun 2017 22:13:40 +0000
-
-kscreenlocker (5.10.1-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 06 Jun 2017 17:31:18 +0000
-
-kscreenlocker (5.10.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Fri, 26 May 2017 15:43:34 +0000
-
-kscreenlocker (5.9.5-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 25 Apr 2017 15:42:55 +0000
-
-kscreenlocker (5.9.4-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 21 Mar 2017 15:01:51 +0000
-
-kscreenlocker (5.9.3-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 28 Feb 2017 16:27:11 +0000
-
-kscreenlocker (5.9.2-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 14 Feb 2017 17:37:07 +0000
-
-kscreenlocker (5.9.1-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 07 Feb 2017 15:07:35 +0000
-
-kscreenlocker (5.9.0-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Mon, 30 Jan 2017 11:50:19 +0000
-
-kscreenlocker (5.8.6-0neon) UNRELEASED; urgency=medium
-
-  * New release
-  * New Plasma LTS release
-  * New LTS release
-
- -- Jonathan Riddell <jr@jriddell.org>  Wed, 25 Oct 2017 14:55:40 +0100
-
-kscreenlocker (5.8.6-0neon) xenial; urgency=medium
-
-  * New Plasma LTS release
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 21 Feb 2017 17:16:30 +0000
-
-kscreenlocker (5.8.5-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 27 Dec 2016 13:11:16 +0000
-
-kscreenlocker (5.8.4-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 22 Nov 2016 14:36:01 +0000
-
-kscreenlocker (5.8.3-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 01 Nov 2016 13:27:08 +0000
-
-kscreenlocker (5.8.2-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 18 Oct 2016 15:25:05 +0000
-
-kscreenlocker (5.8.1-0neon) xenial; urgency=medium
-
-  * New release
-
- -- Neon CI <neon@kde.org>  Tue, 11 Oct 2016 14:37:46 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Oct 2016 14:03:50 +0200
 
 kscreenlocker (5.8.0-0neon) xenial; urgency=medium
 
@@ -275,6 +181,13 @@ kscreenlocker (5.7.5-0neon) xenial; urgency=medium
   * New release
 
  -- Neon CI <neon@kde.org>  Tue, 13 Sep 2016 13:45:25 +0000
+
+kscreenlocker (5.7.4-1) unstable; urgency=medium
+
+  * New upstream release (5.7.4)
+  * Bump group breaks (5.7)
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Aug 2016 14:48:58 +0200
 
 kscreenlocker (5.7.4-0neon) xenial; urgency=medium
 
@@ -294,17 +207,56 @@ kscreenlocker (5.7.1-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Tue, 12 Jul 2016 16:06:04 +0000
 
+kscreenlocker (5.7.0-1) unstable; urgency=medium
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 09 Jul 2016 22:21:55 +0200
+
 kscreenlocker (5.7.0-0neon) xenial; urgency=medium
 
   * New release
 
  -- Neon CI <neon@kde.org>  Mon, 04 Jul 2016 13:15:31 +0000
 
+kscreenlocker (5.6.5-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 24 Jun 2016 09:29:48 +0200
+
 kscreenlocker (5.6.5-0neon) xenial; urgency=medium
 
   * New release
 
  -- Neon CI <neon@kde.org>  Tue, 14 Jun 2016 14:15:05 +0000
+
+kscreenlocker (5.6.4-2) unstable; urgency=medium
+
+  * Add even more missing epochs.
+    Thanks to Andreas Beckmann for reporting (Closes: 814152)
+  * Drop a=summary from vcs browser field.
+    Thanks to Andreas Beckmann for reporting
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 21:59:02 +0200
+
+kscreenlocker (5.6.4-1) unstable; urgency=medium
+
+  [ Maximiliano Curia ]
+  * Missing epoch in plasma-workspace breaks/replaces. (Closes: #814152)
+  * New upstream release (5.5.5).
+  * Add a .gitattributes file to use dpkg-mergechangelogs
+  * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * Fix break/replaces against the l10n packages
+  * Add upstream metadata (DEP-12)
+  * Update install files.
+
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 3.9.8
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 28 May 2016 01:54:48 +0200
 
 kscreenlocker (5.6.4-0neon) xenial; urgency=medium
 
@@ -324,7 +276,7 @@ kscreenlocker (5.6.2-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Fri, 08 Apr 2016 11:43:30 +0000
 
-kscreenlocker (5.5.4-0ubuntu1) UNRELEASED; urgency=medium
+kscreenlocker (5.5.4-1) experimental; urgency=medium
 
   [Rohan Garg]
   * Initial release
@@ -342,13 +294,7 @@ kscreenlocker (5.5.4-0ubuntu1) UNRELEASED; urgency=medium
   * New upstream release (5.5.0)
   * New upstream release (5.5.1).
   * New upstream release (5.5.2).
+  * New upstream release (5.5.3).
+  * New upstream release (5.5.4).
 
-  [ Philip Muškovac ]
-  * libkscreenlocker5 breaks/replaces plasma-workspace << 4:5.5~ 
-  * kde-config-screenlocker breaks/replaces plasma-workspace << 4:5.5~ 
-
-  [ Clive Johnston ]
-  * New upstream release
-  * New upstream release
-
- -- Clive Johnston <clivejo@aol.com>  Wed, 27 Jan 2016 20:11:13 +0000
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 16:49:06 +0100
